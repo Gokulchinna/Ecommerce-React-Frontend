@@ -1,4 +1,5 @@
 import './HomePage.css';
+import CheckMark from '../assets/images/icons/checkmark.png';
 
 import { Header } from '../components/Header';
 
@@ -52,7 +53,7 @@ export function HomePage() {
                         <div className="product-spacer"></div>
 
                         <div className="added-to-cart">
-                            <img src="../assets/images/icons/checkmark.png" />
+                            <img src={CheckMark} />
                             Added
                         </div>
 
@@ -101,7 +102,7 @@ export function HomePage() {
                         <div className="product-spacer"></div>
 
                         <div className="added-to-cart">
-                            <img src="../assets/images/icons/checkmark.png" />
+                            <img src={CheckMark} />
                             Added
                         </div>
 
@@ -150,7 +151,7 @@ export function HomePage() {
                         <div className="product-spacer"></div>
 
                         <div className="added-to-cart">
-                            <img src="../assets/images/icons/checkmark.png" />
+                            <img src={CheckMark} />
                             Added
                         </div>
 
