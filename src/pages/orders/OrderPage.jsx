@@ -2,10 +2,10 @@ import axios from 'axios'
 import { useState, useEffect, Fragment } from 'react';
 import { Link } from 'react-router';
 import './OrderPage.css';
-import { Header } from '../components/Header';
-import BuyAgain from '../assets/images/icons/buy-again.png';
+import { Header } from '../../components/Header';
+import BuyAgain from '../../assets/images/icons/buy-again.png';
 import dayjs from 'dayjs';
-import { formatMoney } from '../utils/money';
+import { formatMoney } from '../../utils/money';
 
 export function OrderPage({ cart }) {
     const [orders, setOrders] = useState([]);
